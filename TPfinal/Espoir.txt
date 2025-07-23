@@ -1,0 +1,43 @@
+🔐 Module 1 – Authentification & Rôles
+Responsable : Toi (ou un développeur backend expérimenté)
+Tâches :
+•	Installer Laravel Breeze ou Jetstream
+•	Ajouter le champ role à la table users
+•	Ajouter des rôles : admin, entrepreneur_en_attente, entrepreneur_approuve
+•	Redirection selon le rôle après login
+•	Middleware pour protéger les routes
+________________________________________
+👤 Module 2 – Gestion des Utilisateurs et des Demandes
+Responsable : Backend 2
+Tâches :
+•	Création du modèle Stand lié à User
+•	Formulaire d’inscription = demande de stand
+•	Interface Admin pour voir les utilisateurs "en attente"
+•	Bouton "Approuver" → change le rôle en entrepreneur_approuve
+•	(Bonus) Bouton "Rejeter" avec message
+________________________________________
+🍱 Module 3 – CRUD Produits pour Entrepreneur
+Responsable : Backend 3 + Frontend 1
+Tâches :
+•	Modèle Produit lié à Stand
+•	Interface pour ajouter / modifier / supprimer un produit
+•	Upload de photo (via Laravel FileStorage)
+•	Afficher "Mes Produits" dans le tableau de bord de l’entrepreneur
+________________________________________
+🛍 Module 4 – Interface Publique & Commandes
+Responsable : Frontend 2
+Tâches :
+•	Page publique : liste des stands approuvés
+•	Détail d’un stand = infos + liste des produits
+•	Ajout de produits dans un "panier"
+•	Soumission d’une commande (pas de paiement, juste JSON)
+________________________________________
+✉ Module 5 – Notifications / Bonus
+Responsable : Développeur bonus ou toi
+Tâches :
+•	Envoi de mail quand un entrepreneur est approuvé
+•	Système de recherche (par nom de stand ou produit)
+•	Interface admin pour voir toutes les commandes
+•	Traduction des erreurs Laravel en français
+
+
